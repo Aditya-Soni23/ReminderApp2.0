@@ -14,6 +14,6 @@ function showNotification() {
 }
 
 // Convert minutes to milliseconds
-let reminderTime = 50000;
+let reminderTime = 5000;
 
 setInterval(showNotification, reminderTime);
